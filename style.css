@@ -357,6 +357,11 @@ header{
     overflow-y: auto;
 }
 
+#modal-dishname{
+    color: rgb(134, 90, 246);
+    font-family: 'Times New Roman';
+}
+
 .modal-content {
     background-image: url("modal.jpg");
     background-repeat: no-repeat;
@@ -388,7 +393,7 @@ header{
 
 .close:hover,
 .close:focus {
-    background-color: rgb(139, 248, 211);
+    background-color: rgb(86, 248, 194);
     color: #000;
     cursor: pointer;
 }
