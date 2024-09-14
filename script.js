@@ -106,7 +106,7 @@ btn.addEventListener("click",()=>{
         
         let ebox = document.querySelector(".errorbox")
         ebox.style.display="block"
-        ebox.innerText = "......Enter dish name."
+        ebox.innerText = "Please enter dish name to search."
 
     }
    
