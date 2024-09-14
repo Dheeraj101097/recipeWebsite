@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading"><h1>Welcome Chef..!</h1></div>
+    
+        <div class="msg-box">
+            Hello Chef..!, It's Great to see you learning new dishes. Find new dishes,their ingredients and process for cooking.
+        </div>
+
+    </header>
+    
+    
+    <div class="background">
+        <img src="burf10.png">
+        <div class="quote">
+            <p class="quote1">“A recipe has no soul. You, as the cook, must bring soul to the recipe.”
+                <h2 class="quote1">-Thomas Keller</h2>
+            </p>
+            <br>
+            <p1>Learn a new Dish</p1>
+            <div class="box-2">
+                <input class="searchbox" placeholder="Enter dish name" type="text">
+                <i id="search" class="fa-solid fa-magnifying-glass" aria-label="Search"></i>
+            </div>
+
+            <div class="errorbox"></div>
+        </div>
+    </div>
+
+    <div class="body2">
+        <div class="varieties">
+
+        </div>
+
+    </div>
+
+
+    <!-- Modal structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-dishname"></h2>
+            <img id="modal-image" src="" alt="Dish Image" loading="lazy" />
+            <br>
+            <h3>.....INGREDIENTS.....</h3>
+            <br>
+            <ul id="ingredients-list"></ul>
+            <br>
+            <h3>.....INSTRUCTIONS.....</h3>
+            <br>
+            <p id="instructions"></p>
+        </div>
+    </div>
+  
+    
+    
+
+    <script src="index.js" ></script>
+</body>
+</html>
